@@ -8,3 +8,4 @@ RUN npm install
 COPY . /usr/src/hyperdrive-daemon/
 
 ENTRYPOINT [ "./bin/run/run" ]
+CMD [ "start", "--foreground" ]
